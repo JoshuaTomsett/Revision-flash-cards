@@ -1,0 +1,16 @@
+Q - Sequence,A - Code is executed line by line from top to bottom
+Q - Iteration,A - A block of code is executed a cetain number of times or while a condition is met
+Q - Branching / selection,A - A block of code is run if a condition is met
+Q - Recursion,A - A subroutine calls itself
+Q - Benefits / drawbacks of recursion,"A - less code than iteration , Can cause a stack overflow error"
+Q - Local variable,A - Can only be accessed in the bloack of code they were defined
+Q - Global variable,A - Can be accessed anywhere in the program
+Q - Features of IDE,"A - Autocomplition , syntax highlighting , Debugging tools , and variable watch"
+Q - Public / private variables,A - private variables can only be accessed by public methods (encapsulation)
+Q - Decomposition,A - Problems is broken down into smaller parts to make it easier to solve
+Q - Divide and conquer,"A - Dive a problem into small problems, solve each individually, merge back together"
+Q - Backtracking,"A - If a path is found to be invalid, you backtrack to  the previous stage"
+Q - Data mining,A - Digging through big data sets to discover hidden connections
+Q - Heuristics,A - Used to find an approximate solution
+Q - Pipelining,A - Tasks being developed in parallel
+Q - Visualistion of data,"A - Graphs, trees, charts (makes it possible to identify trends)"

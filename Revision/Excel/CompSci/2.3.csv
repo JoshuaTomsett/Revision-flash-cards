@@ -1,0 +1,11 @@
+Q - Time complexity,A - How much time an algorithm takes relative to the amount of data
+Q - Types of big O notation,"A - Constant , linear , polynomial , exponention , logarithmic"
+Q - Space complexity,A - The amount of storage / memory an algorithm takes
+Q - Bubble sort,A - Compare and swap values left to right
+Q - Insertion sort,A - Insert one item at a time placing it into its sorted position
+Q - Merge sort,A - Split the list into individual lists and merge them together sorting at each stage
+Q - Quick sort,"A - Select an item as a pivot point, and create higher / lower lists"
+Q - Dijksta's shortest path,A - 
+Q - A*,A - 
+Q - Binary search,"A - List must be in order, select the middle element and if the target is lower go left else go right"
+Q - Linear search,A - Go through each element till you find the target

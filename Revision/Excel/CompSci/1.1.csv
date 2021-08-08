@@ -1,0 +1,36 @@
+Q - Arithmetic and logic unit (ALU),A - completes all arithmetic and logical operations
+Q - Control unit,A - Directs operations inside the cpu
+Q - Registers,A - Small memory cells that operate at high speeds
+Q - Program counter (PC),A - Holds the address of the next instruction
+Q - Accumulator (ACC),A - Stores the result from calculations
+Q - Memory address registor (MAR),A - Holds the address of the location that is to be read from or written to
+Q - Memory data registor (MDR),A - Temporarily stores the data that has been read or needs to be written
+Q - Current instruction registor (CIR),A - holds the current instruction divided into operand and opcode
+Q - Bus,A - A set of parallel wires connecting two or more components together
+Q - Data bus,A - Bi directional bus used to transport data and instructions between components
+Q - Address bus,A - Transmits the memory address specifying where data is to be sent to or received from
+Q - Control bus,A - Bi directional bus used to transmit control signals between internal and external components
+Q - Fetch,Images/CompSci/paper_1/1.1/fetch.gif
+Q - Decode,A - Contents of CIR are split into perand and opcode
+Q - Execute,A - Decoded instructions are executed
+Q - Clock speed,A - Time taken for one clock cycle to complete
+Q - Cores,A - A core is an independent processor capable of running its own fetch execute cycle
+Q - Cache,A - Cpu's onboard memory (has different levels)
+Q - Pipelining,A - While on instruction is being executed another can be decoded and another can be fetched
+Q - Von neumann,A - 
+Q - Harvard,A - 
+Q - Contempory,A - 
+Q - Reduced Instruction set computers (RISC),A - 
+Q - Complex instruction set computers (CISC),A - 
+Q - GPU,A - Co processor made up of lots of independent processors. Efficient at image processing and machine learning
+Q - Multicore systems,A - Multiple independent cores
+Q - Parallel systems,A - Complete multiple instructions simultaneously (pipelining)
+Q - Input devices,A - Send information into a computer
+Q - Output devices,A - Send information from the computer
+Q - Optical storge devices,A - Uses lasers. Examples: CD's and DVD's
+Q - Magnetic storage devices,"A - Examples: HDD , Magnetic tape and floppy disks"
+Q - Flash storage,"A - Fast and compact. Examples: SSD , USB drive"
+Q - Virtual storage,A - If the computer runs out of RAM the hard disk is used as an extension called virtual memory
+Q - RAM,A - Primarys storage. Stores data about programs currently in use. Volatile
+Q - ROM,A - Read only memory. Non-volatile. Uses for fixed instructions (eg: booting)
+Q - Volatile,A - Loses its data when power is lost

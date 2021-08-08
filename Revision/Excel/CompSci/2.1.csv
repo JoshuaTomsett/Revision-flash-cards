@@ -1,0 +1,10 @@
+Q - Abstraction,A - Removing excessive detials 
+Q - Data abstraction,A - Details about how data is stored are hidden
+Q - Layers of abstraction,A - Larger problems are split into layers of abstraction
+Q - Abstraction by generalisation,A - Grouping together similarities within a problem
+Q - Procedural abstraction,A - Programmers uses functions without knowing how they work (black boxing)
+Q - The need for abstraction,A - Allows non-experts to use systems. Also allows for more efficient software design
+Q - Preconditions,A - Requirments which must be met before a program can be executed
+Q - Concurrent processing,A - Each task is given a slice of processor time
+Q - Benefits of concurrent processing,A - Less time wasted
+Q - Drawback of concurrent processing,A - Not all tasks are suited to be broken up

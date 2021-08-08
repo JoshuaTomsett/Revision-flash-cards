@@ -1,0 +1,80 @@
+Q - 1.2.1,A - 
+Q - 1.2.2,A - 
+Q - 1.2.3,A - 
+Q - Procedural languages,Images/CompSci/paper_1/1.2/procedural.gif
+Q - Object-Oriented languages,A - Uses objects formed from classes. Makes programs reusable
+Q - Declarative languages,A - State the desired result and the language determines how best to obtain the result
+Q - Functional languages,A - Functions form the core of the program
+Q - Immediate addressing,A - Operand is the actual value
+Q - Direct addressing,A - Operand gives the address which holds the value
+Q - Indirect addressing,A - Operand gives the address of a register which holds another address where the data is located
+Q - Indexed addressing,A - The address of the operand is determined by adding the operand to the index register
+Q - Operand,A - Holds the value related to the data
+Q - Opcode,A - Specifies the instruction to be performed
+Q - Classes,A - A template for an object
+Q - Object,A - Particular instance of a class
+Q - Attributes,A - Object properties
+Q - Methods,A - Object functions
+Q - Inheritence,A - Subclass inherits attributes and methods from the superclass
+Q - Encapsulation,A - Ensures attributes can not be directly accessed (private attributes)
+Q - Polymorphism,A - Enables objects to behave differently based on their class
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 

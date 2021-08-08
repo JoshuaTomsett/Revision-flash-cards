@@ -1,0 +1,25 @@
+Q - Sign and magnitude,A - First bit tells you if positive or negative
+Q - Two complement,A - First bit is positive or negative but also holds a value
+Q - Character set,A - Set of numbers where each one represents a character
+Q - Array,A - All items are of the same type and has a fixed size
+Q - Record,A - Row in a file
+Q - Tuple,A - Can not be changed
+Q - Linked list,A - Dynamic data structure where each item has a data field and a pointer field
+Q - Grpahs,"A - Set of nodes connected by edges. Can be directed, undirected, and weighted"
+Q - Adjacency list / matrix,Images/CompSci/paper_1/1.4/adjacency.gif
+Q - Stack,A - Last in first out. Added and removed from top
+Q - Queue,A - First in first out
+Q - Circular queue,A - Has a rear pointer to utilise empty space
+Q - Hash table,A - An items index is the hash value of the data
+Q - Tree,"A - Has a root node, children, and leaf nodes (no children)"
+Q - Binary tree,A - Has a maximum of two children
+Q - Depth first traversal,A - Go as far down a path as possible then backtrack to next path
+Q - Breadth first traversal,A - Visit all children of a node before changing node (left to right)
+Q - Pre order traverse,A - Add node when passing on the left (same as depth first)
+Q - In order traverse,A - Add node when passing under it
+Q - Post order traverse,A - Add node when passing on the right
+Q - Karnaugh maps,Images/CompSci/paper_1/1.4/karnaugh.gif
+Q - D-type flip flop,Images/CompSci/paper_1/1.4/flipFlop.gif
+Q - Purpose of D-type flip flop,A - Used as a memory cell to store the state of a bit
+Q - Half adder,A - can take an input of two bits and give a two bit output (S = sum   C = carry)
+Q - Full adder,Images/CompSci/paper_1/1.4/fullAdder.gif

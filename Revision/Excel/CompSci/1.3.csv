@@ -1,0 +1,80 @@
+Q - 1.3.1,A - 
+Q - Flat file,A - A database that consists of a single file
+Q - Primary key,A - A unique identifier for each record in the table
+Q - Foreign key,A - The attribute which links two tables together
+Q - Secondary key,A - An index other than the primary key used to search and sort through the database faster
+Q - One to One relationship,A - Each entity can only be linked to one other
+Q - One to Many relationship,A - One table can be associated with many other tables
+Q - Many to many relationship,A - One entity can be associated with many other entities
+Q - Normalisation,A - The process of making the best possible layout for a database
+Q - Indexing,A - A method used to store the position of each record
+Q - Capturing data,A - The process of getting data into a database
+Q - Selecting data,A - Removing excess information to extract only the data you require
+Q - Managing data,A - Manipulating data collected in any way
+Q - Exchanging data,A - Process of transferring the collect data
+Q - First normal form,A - Contains no repeating attribute or groups of attributes
+Q - Second normal form,A - No attributes can depend on part of a composite key (does not have any partial dependencies)
+Q - Third normal form,A - Contains no non-key dependencies (only depends on primary key)
+Q - Referential integrity,A - Process of ensure consistancy
+Q - Transaction processing,A - A collection of operations executed on data
+Q - Atomicity,A - A transaction must be processed in its entierety or not at all
+Q - Consistancy ,A - A transaction must maintain referential integrity
+Q - Isolation,A - Simultaneous executions should lead to the same result as if one after the other
+Q - Durability,A - Once executed a transaction will remain so
+Q - Record locking,A - Preventing simultaneous access to records
+Q - Redundency,A - Make more copies of important data in different locations
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 

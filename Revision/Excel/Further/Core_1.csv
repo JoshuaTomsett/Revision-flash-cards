@@ -1,0 +1,50 @@
+Q - Determinent of 2x2 matrix,A - ad-bc
+Q - If determinent = 0,A - Singular so no inverse
+Q - Determinent of 3x3 matrix,A - a(minor a) - b(minor b) + c(minor c)
+Q - Transformation scale factor,A - Determinent is the area scale factor
+Q - Inverse of 2x2 matrix,Images/Further/core1/inverse2.gif
+Q - Inverse of 3x3 matrix,A - (1 / det M) * (cT) Where cT is a matrix of minors with a positive / negative matrix applied and then transposed
+Q - Matrix * inverse matrix,A - Identity matrix
+Q - Solve simultaneous equations,Images/Further/core1/simultaneous.gif
+Q - Invariant point,Images/Further/core1/invarpoint.gif
+Q - 2D rotation,Images/Further/core1/rotation2d.gif
+Q - 2D reflection,Images/Further/core1/reflection2d.gif
+Q - 2D enlargement,Images/Further/core1/enlargement2d.gif
+Q - 3D reflection X = 0,Images/Further/core1/reflection3dx.gif
+Q - 3D reflection Y = 0,Images/Further/core1/reflection3dy.gif
+Q - 3D reflection Z = 0,Images/Further/core1/reflection3dz.gif
+Q - 3D rotation X axis,Images/Further/core1/rotation3dx.gif
+Q - 3D rotation Y axis,Images/Further/core1/rotation3dy.gif
+Q - 3D rotation Z axis,Images/Further/core1/rotation3dz.gif
+Q - Relationship between roots and coefficients,Images/Further/core1/roots.gif
+Q - Sum of r,A - n/2 (n+1)
+Q - Sum of r^2,A - n/6 (n+1)(2n+1)
+Q - Sum of r^3,A - n^2/4 (n+1)^2
+Q - Volume rotation x axis,Images/Further/core1/volumex.gif
+Q - Volume rotation y axis,Images/Further/core1/volumey.gif
+Q - Vector form of straight line,Images/Further/core1/vectorline.gif
+Q - Cartesian form of straight line,Images/Further/core1/cartesianline.gif
+Q - Points of intersection of vector lines,"A - Expand the line equations , Solve simultaneously for lambda or mu"
+Q - Vector form of plane,Images/Further/core1/vectorplane.gif
+Q - Cartesian form of plane,Images/Further/core1/cartesianplane.gif
+Q - Scalar product,Images/Further/core1/scalarproduct.gif
+Q - Scalar product of perpendicular vectors,A - 0
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
+Q - ,A - 
