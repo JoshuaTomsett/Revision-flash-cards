@@ -1,0 +1,258 @@
+
+<SubjectWindow>:
+    name: "SubjectWin"
+
+    BoxLayout:
+        orientation: "vertical"
+
+        Button:
+            text: "Maths"
+            on_release:
+                app.root.current = "MathsWin"
+                root.manager.transition.direction = "left"
+        
+        Button:
+            text: "Further Maths"
+            on_release:
+                app.root.current = "FurtherMathsWin"
+                root.manager.transition.direction = "left"
+        
+        Button:
+            text: "Computer Science"
+            on_release:
+                app.root.current = "CompSciWin"
+                root.manager.transition.direction = "left"
+        
+        Button:
+            text: "Economics"
+            on_release:
+                app.root.current = "EconomicsWin"
+                root.manager.transition.direction = "left"
+
+
+<MathsWindow>:
+    name: "MathsWin"
+
+    GridLayout:
+        cols: 2
+
+        Button:
+            text:"Back"
+            size_hint: 0.3 , 1
+            on_release:
+                app.root.current = "SubjectWin"
+                root.manager.transition.direction = "right"
+
+        GridLayout:
+            cols: 2
+
+            Button:
+                text:"Pure Y1"
+                on_release:
+                    root.goToCard("Maths","Year_1","MathsWin")
+                
+            Button:
+                text:"Pure Y2"
+                on_release:
+                    root.goToCard("Maths","Year_2","MathsWin")
+
+            Button:
+                text:"Stats Y1"
+                on_release:
+                    root.goToCard("Maths","stats_1","MathsWin")
+
+            Button:
+                text:"Stats Y2"
+                on_release:
+                    root.goToCard("Maths","stats_2","MathsWin")
+
+            Button:
+                text:"Mechanics Y1"
+                on_release:
+                    root.goToCard("Maths","mech_1","MathsWin")
+            Button:
+                text:"Mechanics Y2"
+                on_release:
+                    root.goToCard("Maths","mech_2","MathsWin")
+
+
+<FurtherMathsWindow>:
+    name: "FurtherMathsWin"
+
+    GridLayout:
+        cols: 2
+
+        Button:
+            text: "Back"
+            size_hint: 0.3 , 1
+            on_release:
+                app.root.current = "SubjectWin"
+                root.manager.transition.direction = "right"
+
+
+        GridLayout:
+            cols:1
+
+            Button:
+                text:"Core Y1"
+
+            Button:
+                text:"Core Y2"
+
+            Button:
+                text:"TBD"
+
+            Button:
+                text:"TBD"
+
+
+<CompSciWindow>:
+    name: "CompSciWin"
+
+    GridLayout:
+        cols: 2
+
+        Button:
+            text:"Back"
+            size_hint: 0.3 , 1
+            on_release:
+                app.root.current = "SubjectWin"
+                root.manager.transition.direction = "right"
+
+        GridLayout:
+            cols: 2
+
+            Button:
+                text:"1.1"
+                on_release:
+                    root.goToCard("CompSci","1.1","CompSciWin")
+                
+            Button:
+                text:"1.2"
+                on_release:
+                    root.goToCard("CompSci","1.2","CompSciWin")
+
+            Button:
+                text:"1.3"
+                on_release:
+                    root.goToCard("CompSci","1.3","CompSciWin")
+
+            Button:
+                text:"1.4"
+                on_release:
+                    root.goToCard("CompSci","1.4","CompSciWin")
+
+            Button:
+                text:"1.5"
+                on_release:
+                    root.goToCard("CompSci","1.5","CompSciWin")
+
+            Button:
+                text:"2.1"
+                on_release:
+                    root.goToCard("CompSci","2.1","CompSciWin")
+
+            Button:
+                text:"2.2"
+                on_release:
+                    root.goToCard("CompSci","2.2","CompSciWin")
+
+            Button:
+                text:"2.3"
+                on_release:
+                    root.goToCard("CompSci","2.3","CompSciWin")
+
+
+<EconomicsWindow>:
+    name: "EconomicsWin"
+
+    GridLayout:
+        cols: 2
+
+        Button:
+            text: "Back"
+            size_hint: 0.3 , 1
+            on_release:
+                app.root.current = "SubjectWin"
+                root.manager.transition.direction = "right"
+
+
+        GridLayout:
+            cols:1
+
+            Button:
+                text:"Theme 1"
+                on_release:
+                    root.goToCard("Economics","Theme_1","EconomicsWin")
+
+            Button:
+                text:"Theme 2"
+                on_release:
+                    root.goToCard("Economics","Theme_2","EconomicsWin")
+
+            Button:
+                text:"Theme 3"
+                on_release:
+                    root.goToCard("Economics","Theme_3","EconomicsWin")
+
+            Button:
+                text:"Theme 4"
+                on_release:
+                    root.goToCard("Economics","Theme_4","EconomicsWin")
+
+
+<CardWindow>:
+    name: "cardWin"
+    theme_list: []
+    current: 0
+    listLength: 0
+    cardLabel: cardLabel
+    pageNumber: pageNumber
+    cardImage: cardImage
+
+    GridLayout:
+        cols: 2
+
+        Image:
+            width: root.width * 0.7
+            height: root.height
+            id:cardImage
+            source: 'Images/card.gif'
+            allow_stretch: True
+            keep_ratio: False
+
+            Label:
+                font_size: 20
+                text_size: self.width, None
+                width: root.width * 0.7
+                height: root.height
+                id: cardLabel
+                color: 0,0,0,1
+                text: ""
+                halign: "center"
+                valign: "middle"
+                
+
+
+        GridLayout:
+            size_hint: 0.3 , 1
+            cols: 1
+
+            Button:
+                text: "Back"
+                on_release:
+                    root.back()
+
+            Button:
+                text: "--->"
+                on_release:
+                    root.next()
+
+            Label:
+                id: pageNumber
+                text: "Page Number"
+
+            Button:
+                text: "<---"
+                on_release:
+                    root.last()
